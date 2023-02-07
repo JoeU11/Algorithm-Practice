@@ -16,3 +16,9 @@ input = [99, 101, 88, 4, 2000, 50]
 output = input.select {|num| num < 100}
 p output
 
+# 3 - Map:double
+# Given an array of numbers, write a function that returns a new array whose values are the original array’s value doubled.
+
+input = [4, 2, 5, 99, -4]
+output = input.map {|num| num * 2}
+p output
